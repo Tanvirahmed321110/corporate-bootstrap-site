@@ -55,4 +55,40 @@ navbar ul li a{
     margin-left: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+
  
+ /* feature section */
+ .icon-head{
+   font-size: 2.3rem;
+   color: rgb(105, 16, 194);
+  
+   display: inline;
+ }
+ 
+ .icon-head i{
+   /* box-shadow:2px 2px 5px rgb(221, 103, 103); */
+   padding: 12px;
+   border-radius: 50%;
+ }
+ 
+ .feature{
+   margin: 25px 0 65px;
+ }
+ 
+.carousel-inner img{
+   height: 400px;
+}
+
+
+.footer {
+   margin-top: 80px !important;
+}
+
+
+
+
+
+/* vivmus section */
+.vivmus{
+   background-color: #031633;
+}
