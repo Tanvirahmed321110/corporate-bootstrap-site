@@ -91,4 +91,25 @@ navbar ul li a{
 /* vivmus section */
 .vivmus{
    background-color: #031633;
+   margin-bottom: 70px !important;
+}
+
+.ul-class{
+   margin-top: 6px;
+   list-style: none;
+   position: relative;
+}
+
+.ul-class li::before {
+   font-family: 'Font Awesome\ 5 Free';
+   content: '\';
+   font-size: 2rem;
+  
+   color: rebeccapurple;
+   position: absolute;
+   left: -11px;
+}
+
+.img-fluid {
+   height: 309px;
 }

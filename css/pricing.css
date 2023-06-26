@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    marker: 0;
+    padding: 0;
+}
+.row{
+    margin: 55px 0  !important;
+}
+
+.pricing-container{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #f5f5f5;
+   
+}
+
+
+.pricing-header{
+    color: white;
+    height: 170px;
+    background-color: #4374ff;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    ;
+}
+
+.pricing-container big{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .pricing-container{
+        margin-top: 44px;
+    }
+}
+
+@media only screen  and (min-width:1001px){
+    .pricing-container{width: 32%;}
+}
