@@ -1,0 +1,58 @@
+navbar ul li a{
+    color: white;
+    font-size: bold;
+}
+
+/* footer  */
+.icon{
+    width: 90%;
+}
+ .icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    font-size: 1.5rem;
+    color:rgb(53, 56, 51);
+    text-decoration: none;
+    box-shadow:2px 2px 5px rgb(221, 103, 103);
+    padding: 7px;
+    border-radius: 50%;
+ }
+ .icon a:hover{
+    color: blue;
+ }
+ 
+ 
+ .navbar a:hover{
+     border-bottom: 1px solid red !important;
+ }
+ 
+ 
+ 
+ 
+ /* backgorund-image-section */
+ .backgorund-image-section{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    padding: 12% 3%;
+    opacity: .94;
+ }
+ .backgorund-image-section:hover{opacity: 3.3;
+ transition: all .9s linear;
+ transform: scale(1.05);
+ color: red;
+}
+ 
+ .backgorund-image-section p,h2,.btn-download{
+    color: white !important;
+    text-shadow:2px 3px rgb(194, 20, 20);
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
